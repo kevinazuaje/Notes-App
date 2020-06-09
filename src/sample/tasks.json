@@ -22,7 +22,7 @@
   },
   {
     "id": 4,
-    "titile": "Aplicacion de notas",
+    "title": "Aplicacion de notas",
     "description": "notes app",
     "done": true,
     "priority": "high"
@@ -36,7 +36,7 @@
   },
   {
     "id": 6,
-    "titile": "clases de react",
+    "title": "clases de react",
     "description": "learn react",
     "done": false,
     "priority": "high"
