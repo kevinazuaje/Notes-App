@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "proyecto asignado",
+    "description": "special tasks",
+    "done": true,
+    "priority": "high"
+  },
+  {
+    "id": 2,
+    "title": "Aplicaion pendiente",
+    "description": "programming classes",
+    "done": false,
+    "priority": "high"
+  },
+  {
+    "id": 3,
+    "title": "pagina web sencilla",
+    "description": "Html5 classes",
+    "done": true,
+    "priority": "high"
+  },
+  {
+    "id": 4,
+    "titile": "Aplicacion de notas",
+    "description": "notes app",
+    "done": true,
+    "priority": "high"
+  },
+  {
+    "id": 5,
+    "title": "clases de musica",
+    "description": "guitar chords",
+    "done": false,
+    "priority": "low"
+  },
+  {
+    "id": 6,
+    "titile": "clases de react",
+    "description": "learn react",
+    "done": false,
+    "priority": "high"
+  }
+]
