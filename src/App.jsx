@@ -9,10 +9,14 @@ class App extends Component {
     tasks: tasks,
   };
 
-  addTasks = () => {
-    console.log("agregando tarea");
+  addTasks = (title, description) => {
+    const newTask = {
+      title,
+      description,
+      id: this.state.tasks.length,
+    };
+    this.setState({ tasks: [...this.state.tasks, newTask] });
   };
-
   render() {
     return (
       <div>

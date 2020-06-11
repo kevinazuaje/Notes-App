@@ -16,7 +16,7 @@ class Task extends Component {
     return (
       <p className="grey" style={this.staycompleted()}>
         {task.title}--{task.description}--
-        {task.done}-- {task.priority}
+        {task.done}-- {task.id}
         <input type="checkbox" />
         <button className="button">x</button>
       </p>
