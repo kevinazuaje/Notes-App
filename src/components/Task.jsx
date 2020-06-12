@@ -6,7 +6,7 @@ class Task extends Component {
       color: this.props.task.done ? "gray" : "black",
       textDecoration: this.props.task.done ? "line-through" : "none",
       fontSize: "25px",
-      backgroundColor: "DarkGray",
+      backgroundColor: this.props.task.done ? "darkgrey" : "green",
     };
   }
 
@@ -15,9 +15,14 @@ class Task extends Component {
 
     return (
       <p className="grey" style={this.staycompleted()}>
-        {task.title}--{task.description}--
-        {task.done}-- {task.id}
+        <h2>{task.title}</h2>
+        <br />
+        <p>{task.description}</p>
+        <br />
+        <p>{task.done}</p>
+        <label for="check">done</label>
         <input
+          name="check"
           type="checkbox"
           onChange={this.props.checkDone.bind(this, task.id)}
         />
@@ -25,7 +30,7 @@ class Task extends Component {
           className="button"
           onClick={this.props.deleteTask.bind(this, task.id)}
         >
-          x
+          Delete
         </button>
       </p>
     );
